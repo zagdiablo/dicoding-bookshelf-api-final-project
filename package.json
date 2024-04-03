@@ -1,0 +1,34 @@
+{
+  "name": "dicoding-bookshelf-api-final-project",
+  "version": "1.0.0",
+  "description": "Dicoding final project \"Bookshelf API\" by Adhitia Nugraha",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "devstart": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zagdiablo/dicoding-bookshelf-api-final-project.git"
+  },
+  "keywords": [
+    "Bookshelf",
+    "API"
+  ],
+  "author": "Adhitia Nugraha",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/zagdiablo/dicoding-bookshelf-api-final-project/issues"
+  },
+  "homepage": "https://github.com/zagdiablo/dicoding-bookshelf-api-final-project#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.7",
+    "nanoid": "^3.3.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "nodemon": "^3.1.0"
+  }
+}
